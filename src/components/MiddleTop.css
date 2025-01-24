@@ -5,7 +5,9 @@
     margin-left: 20px;
     border-radius: 15px;
     overflow: hidden;
-    animation: fadeInVisibility 1s ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .middle-top-container img{
     height: 350px;
@@ -21,6 +23,7 @@
     }
 
     .middle-top-container img {
+        max-width: 250px;
         width: 100%; 
         height: auto; 
     }

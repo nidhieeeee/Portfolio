@@ -8,22 +8,18 @@ function RightTop() {
     const projects = [
         {
             name: "TravelGo",
-            link: "https://nidhieeeee.github.io/TravelGo/",
             image: "https://i.ibb.co/9Yb4wzk/Screenshot-2025-01-23-134536.png",
         },
         {
             name: "PokeSearch",
-            link: "https://nidhieeeee.github.io/PokeSearch/",
             image: "https://i.ibb.co/WP3TjkF/Screenshot-2025-01-23-221808.png",
         },
         {
             name: "GoodFood",
-            link: "https://nidhieeeee.github.io/GoodFood_landing_page/",
             image: "https://i.ibb.co/WPBj2vp/Screenshot-2025-01-23-183942.png",
         },
         {
             name: "Nidhi Academy",
-            link: "https://nidhi-academy.vercel.app/",
             image: "https://i.ibb.co/DK4DfB9/Screenshot-2025-01-23-185147.png",
         },
     ];
@@ -40,14 +36,14 @@ function RightTop() {
                         className="project-item"
                         onMouseEnter={() => handleMouseEnter(index)}
                     >
-                        <a
+                        <p
                             href={project.link}
                             target="_blank"
                             className="project-link"
                         >
                             {project.name}
                             <MoveUpRight />
-                        </a>
+                        </p>
                         <div
                             className={`project-img ${
                                 hoveredIndex === index ? "show" : "hide"
