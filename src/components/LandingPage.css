@@ -1,0 +1,14 @@
+.side , .left-top , .left-bottom{
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
+.right-top{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

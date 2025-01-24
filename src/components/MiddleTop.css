@@ -1,0 +1,27 @@
+.middle-top-container{
+    margin-top: 20px;
+    height: 350px;
+    width: 250px;
+    margin-left: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    animation: fadeInVisibility 1s ease-out;
+}
+.middle-top-container img{
+    height: 350px;
+    width: 250px;
+    border-radius: 10px;
+}
+@media (max-width: 768px) {
+    .middle-top-container {
+        width: 95%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .middle-top-container img {
+        width: 100%; 
+        height: auto; 
+    }
+}

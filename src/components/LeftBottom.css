@@ -1,0 +1,43 @@
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.left-bottom-container{
+    background-color: #fec4b2;
+    height: 170px;
+    width: 455px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 15px;
+    padding: 20px;
+    padding-bottom: 30px;
+    animation: slideInFromLeft 1s ease-out;
+}
+.left-bottom-container p{
+    position: relative;
+    top: 40px;
+    font-size: 1.2rem;
+    width: 400px;
+}
+@media (max-width: 768px) {
+    .left-bottom-container {
+        width: 90%; 
+        min-height: 150px;
+        height: auto; 
+        padding: 15px; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .left-bottom-container p {
+        width: 100%; 
+        font-size: 1rem; 
+        top: 20px; 
+    }
+}

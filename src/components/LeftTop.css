@@ -1,0 +1,53 @@
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.left-top-container{
+    background-color:  #fec4b2;
+    font-weight: bold;
+    font-size: 3.3rem;
+    margin-top: 20px;
+    height: 300px;
+    width: 700px;
+    border-radius: 15px;
+    padding: 25px 20px;
+    margin-left: 20px;
+    animation: slideInFromLeft 1s ease-out;
+}
+.left-top-container p{
+    margin-top: 20px;
+}
+.left-top-container i{
+    font-weight: normal;
+}
+.left-top-container svg{
+display: flex;
+position: relative;
+left: 560px;
+border: none;
+color: rgba(255, 85, 113, 0.788);
+}
+@media (max-width: 768px) {
+    .left-top-container {
+        width: 95%; 
+        font-size: 2rem; 
+        height: auto; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .left-top-container p {
+        margin-top: 20px; 
+    }
+
+    .left-top-container svg {
+        left: auto; 
+        margin: 0 auto;
+    }
+}
