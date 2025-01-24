@@ -10,7 +10,7 @@
 }
 .left-bottom-container{
     background-color: #fec4b2;
-    height: 170px;
+    height: 160px;
     width: 455px;
     margin-top: 20px;
     margin-left: 20px;
@@ -21,8 +21,8 @@
 }
 .left-bottom-container p{
     position: relative;
-    top: 40px;
-    font-size: 1.2rem;
+    top: 20px;
+    font-size: 1.1rem;
     width: 400px;
 }
 @media (max-width: 768px) {

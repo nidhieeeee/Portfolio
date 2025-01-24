@@ -10,7 +10,7 @@
 }
 .middle-bottom-container{
     background-color: #fec4b2;
-    height: 170px;
+    height: 160px;
     width: 455px;
     margin-top: 20px;
     margin-left: 20px;
@@ -29,7 +29,7 @@
 .contact-me{
     font-size: 3.5rem;
     position: relative;
-    top: 90px;
+    top: 65px;
 }
 @media (max-width: 768px) {
     .middle-bottom-container {
