@@ -37,10 +37,12 @@
     height: 140px;
     animation: slideInFromTop 1s ease-out;
 }
-
+.project-description{
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
 .project-title {
     font-size: 2rem;
-    margin-bottom: 20px;
 }
 
 .demo {

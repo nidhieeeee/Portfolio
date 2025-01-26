@@ -4,8 +4,14 @@ import { Flower } from 'lucide-react';
 function LeftTop(){
     return (
         <div className="left-top-container">
-            <Flower height="150px" width="150px" strokeWidth="0.3" />
-            <p> Software <i>Engineer</i>  with Front-End Developer </p>
+            <div className="left-top-svg">
+                <div className="left-svg"></div>
+                <div className="right-svg">
+                <Flower size={120} strokeWidth="0.3" /></div>
+                </div>
+            <div className="left-top-text"><p> 
+            Frontend- <i>focused</i>  Software Engineer. </p></div>
+            
         </div>
     );
 }

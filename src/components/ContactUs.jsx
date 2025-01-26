@@ -7,7 +7,7 @@ const ContactUs = () => {
     <Navbar />
         <div className="contact-container">
             
-            <h2 className="contact-title">Contact Us</h2>
+            <h2 className="contact-title">Contact Me</h2>
             <form className="contact-form">
                 <div className="form-group">
                     <label htmlFor="name">Name</label>

@@ -28,22 +28,29 @@ function RightTop() {
         setHoveredIndex(index); 
     };
     return (
-        <div className="right-top-container">
-            <div className="project-names">
+            <div className="right-top-container">
                 {projects.map((project, index) => (
                     <div
                         key={index}
                         className="project-item"
                         onMouseEnter={() => handleMouseEnter(index)}
                     >
-                        <p
+                        <div className="right-top-text">
+
+                            <div className="right-top-link"><p
                             href={project.link}
                             target="_blank"
                             className="project-link"
                         >
                             {project.name}
+                            </p></div>
+                            <div className="right-top-svg">
                             <MoveUpRight />
-                        </p>
+                            </div>
+                        </div>
+                        
+                            
+                        
                         <div
                             className={`project-img ${
                                 hoveredIndex === index ? "show" : "hide"
@@ -58,7 +65,6 @@ function RightTop() {
                     </div>
                 ))}
             </div>
-        </div>
     );
 }
 

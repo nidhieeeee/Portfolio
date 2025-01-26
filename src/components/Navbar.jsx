@@ -15,7 +15,7 @@ function Navbar() {
         navigate("/home");
     }
     function handleContact(){
-        navigate("/contactus");
+        navigate("/contactme");
     }
     return (
         <div className="navbar-container">

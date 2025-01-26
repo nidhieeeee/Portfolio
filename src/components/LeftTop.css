@@ -12,42 +12,30 @@
     background-color:  #fec4b2;
     font-weight: bold;
     font-size: 3.3rem;
-    margin-top: 20px;
-    height: 300px;
-    width: 700px;
+    height: auto;
+    width: auto;
     border-radius: 15px;
-    padding: 25px 20px;
-    margin-left: 20px;
+    padding: 10px;
     animation: slideInFromLeft 1s ease-out;
 }
-.left-top-container p{
-    margin-top: 20px;
+.left-top-text i{
+    font-weight:normal;
 }
-.left-top-container i{
-    font-weight: normal;
+.left-top-svg{
+    display: flex;
+    width: 100%;
 }
-.left-top-container svg{
-display: flex;
-position: relative;
-left: 560px;
-border: none;
-color: rgba(255, 85, 113, 0.788);
+.left-svg{
+    width: 100%;
 }
-@media (max-width: 768px) {
-    .left-top-container {
-        width: 95%; 
+.right-svg{
+    color: rgba(255, 85, 113, 0.788); 
+}
+@media (max-width: 500px) {
+    .left-top-container { 
         font-size: 2rem; 
-        height: auto; 
-        margin-left: auto;
-        margin-right: auto;
     }
-
-    .left-top-container p {
-        margin-top: 20px; 
-    }
-
-    .left-top-container svg {
-        left: auto; 
-        margin: 0 auto;
+    .right-svg svg{
+        size: auto;
     }
 }
