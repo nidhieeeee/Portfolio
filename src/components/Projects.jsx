@@ -4,6 +4,20 @@ import Navbar from "./Navbar.jsx"
 import { Link , Github} from 'lucide-react';
 const Projects = () => {
     const projects = [
+      {
+        name:"CareerPath",
+        link:"https://careerpath.nidhieeeee.codes",
+        description:"Careerpath is a student counselling platform that provides information about career options, college details, and entrance exam guidance. It aims to help students make informed decisions about their future careers.",
+        image:"/careerpath.png",
+        github:"https://github.com/nidhieeeee/CareerPath",
+      },
+      {
+        name:"LushBites",
+        link:"https://lushbites.vercel.app/",
+        description:"LushBites is a recipe sharing web application that allows users to explore, share, and discover a variety of recipes. It features user authentication, recipe submission, and a user-friendly interface for easy navigation.",
+        image:"/lushbites.png",
+        github:"https://github.com/nidhieeeee/reciepe-sharing-app"
+      },
         {
             name: "TravelGo",
             link: "https://nidhieeeee.github.io/TravelGo/",
