@@ -9,8 +9,10 @@ function LeftTop(){
                 <div className="right-svg">
                 <Flower size={120} strokeWidth="0.3" /></div>
                 </div>
-            <div className="left-top-text"><p> 
-            Frontend- <i>focused</i>  Software Engineer. </p></div>
+            <div className="left-top-text">
+  <p> Web Developer <i>Crafting</i> Seamless Experiences. </p>
+</div>
+
             
         </div>
     );

@@ -7,21 +7,25 @@ function RightTop() {
 
     const projects = [
         {
-            name: "TravelGo",
-            image: "https://i.ibb.co/9Yb4wzk/Screenshot-2025-01-23-134536.png",
+            name: "CareerPath",
+            image: "/careerpath.png",
         },
         {
-            name: "PokeSearch",
-            image: "https://i.ibb.co/WP3TjkF/Screenshot-2025-01-23-221808.png",
+            name: "LushBites",
+            image: "/lushbites.png",
+        },
+        {
+            name: "TravelGo",
+            image: "https://i.ibb.co/9Yb4wzk/Screenshot-2025-01-23-134536.png",
         },
         {
             name: "GoodFood",
             image: "https://i.ibb.co/WPBj2vp/Screenshot-2025-01-23-183942.png",
         },
-        {
-            name: "Nidhi Academy",
-            image: "https://i.ibb.co/DK4DfB9/Screenshot-2025-01-23-185147.png",
-        },
+        // {
+        //     name: "Nidhi Academy",
+        //     image: "https://i.ibb.co/DK4DfB9/Screenshot-2025-01-23-185147.png",
+        // },
     ];
 
     const handleMouseEnter = (index) => {
